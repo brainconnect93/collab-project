@@ -120,3 +120,41 @@ button a{
     margin-top: -12px;
     font-size: 16px;
 }
+
+.mic-container{
+    display:flex;
+    flex-direction: row;
+    /*justify-content: ;*/
+    width: 75%;
+    margin: 12px auto;
+    line-height: 33px;
+}
+.mic{
+    border: 1px solid black;
+    text-align: center;
+    margin: 0 10px;
+   /* padding: 10px; */
+   /* padding-top: 2px; */
+   
+    
+}
+
+.mic-head{
+    background-color: #cecaca;
+    padding: 0 0 3px 0;
+    margin-top: -19px;
+    justify-content: baseline;
+}
+
+.mic-head h2{
+    margin-bottom: 5px;
+}
+
+.mic button{
+    background-color: orange;
+    border: none;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    
+}
