@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    background-color: #eee;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-view {
+    display: flex;
+    margin-left: 50px;
+}
+
+.head-view img {
+    height: 70px;
+    width: 100px;
+    padding-top: 10px;
+}
+
+.head-view h2 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+#nav-bar ul {
+    display: flex;
+    margin: 30px 20px 0 0;
+    padding-right: 20px;
+}
+
+.nav-link {
+    list-style: none;
+    padding: 0 25px;
+}
+
+.nav-link a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+    margin: 8px 10px;
+}
+
+.head-start {
+    text-align: center;
+    font-size: 18px;
+
+} 
+
+.head-start form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form input{
+    margin-bottom: 15px;
+    width: 290px;
+    height: 23px;
+}
+
+form button{
+    background-color: rgb(209, 209, 17);
+    color: #000;
+    width: 150px;
+    height: 25px;
+    border: none;
+}
+
+button a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#000;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 8% auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    margin: 25px 0;
+}
+
+.card i {
+    color: rgba(255, 166, 0, 0.952);
+    text-align: center;
+    font-size: 50px;
+    justify-self: flex-start;
+}
+
+.content{
+    text-align: start;
+    align-items: center;
+    margin-left: 55px;
+    margin-top: -20px;
+}
+
+#cont1 {
+    margin-left: 80px;
+}
+
+.content h2 {
+    font-size: 24px;
+}
+
+.content p {
+    margin-top: -12px;
+    font-size: 16px;
+}
+
+.mic-container{
+    display:flex;
+    flex-direction: row;
+    /*justify-content: ;*/
+    width: 75%;
+    margin: 12px auto;
+    line-height: 33px;
+}
+.mic{
+    border: 1px solid black;
+    text-align: center;
+    margin: 0 10px;
+   /* padding: 10px; */
+   /* padding-top: 2px; */
+   
+    
+}
+
+.mic-head{
+    background-color: #cecaca;
+    padding: 0 0 3px 0;
+    margin-top: -19px;
+    justify-content: baseline;
+}
+
+.mic-head h2{
+    margin-bottom: 5px;
+}
+
+.mic button{
+    background-color: orange;
+    border: none;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    
+}
